@@ -8,6 +8,7 @@
   max-width: 800px;
   margin: 0px auto;
   background-color: #eee;
+  background-color: orangered;
 }
 
 ol,
@@ -15,75 +16,62 @@ ul {
   list-style-type: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 header .container .row .main {
+  border-bottom: 1px solid white;
   padding: 20px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .row .main .logo i {
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
 }
 header .container .row .main .menu {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   align-items: center;
 }
-header .container .row .main .menu .left h2 {
-  font-size: 25px;
+header .container .row .main .menu .create-eve,
+header .container .row .main .menu .event-type {
+  padding: 0px 5px;
 }
-header .container .row .main .menu .right .btn button {
+header .container .row .main .menu .create-eve button,
+header .container .row .main .menu .event-type button {
   border: 0px;
-  background-color: #99d1d1;
-  padding: 14px 20px;
-  border-radius: 20px;
-  font-size: 19px;
-}
-header .container .row .main .menu .right .btn button i {
-  padding-right: 10px;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: orangered;
+  font-weight: 600;
+  cursor: pointer;
 }
 
-nav .container .row .main {
-  padding: 20px 35px;
-}
-nav .container .row .main .menu ul {
+.home-section .container .row .main {
+  min-height: 90vh;
+  padding: 20px 40px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
-nav .container .row .main .menu ul li {
-  text-transform: capitalize;
-  font-weight: 600;
+.home-section .container .row .main .title h2 {
+  font-size: 80px;
+  color: white;
+  text-decoration: underline;
+}
+.home-section .container .row .main .title p {
+  text-align: center;
+  color: white;
+  padding-top: 5px;
 }
 
-.event-section .container {
-  height: 100vh;
-}
-.event-section .container .row .main {
-  padding: 30px 20px;
-  display: flex;
-  flex-wrap: wrap;
-}
-.event-section .container .row .main .card {
-  padding: 15px;
-  width: 33%;
-}
-.event-section .container .row .main .card .content {
-  background-color: white;
-  border-radius: 15px;
-  padding: 20px;
-}
-.event-section .container .row .main .card .content .img {
-  display: flex;
-  justify-content: center;
-}
-.event-section .container .row .main .card .content .img img {
-  width: 100%;
-}
-.event-section .container .row .main .card .content .details {
-  padding-top: 15px;
-}
-.event-section .container .row .main .card .content .details h3 {
-  font-size: 20px;
-  text-transform: capitalize;
-}
-.event-section .container .row .main .card .content .details h4 {
-  font-size: 17px;
-  padding: 8px 0px;
+.event-type-section .container .row .main {
+  min-height: 90vh;
 }/*# sourceMappingURL=pages.css.map */

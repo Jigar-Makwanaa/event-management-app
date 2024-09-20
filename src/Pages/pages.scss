@@ -8,6 +8,7 @@
     max-width: 800px;
     margin: 0px auto;
     background-color: #eee;
+    background-color: orangered;
 }
 
 ol,
@@ -15,38 +16,47 @@ ul {
     list-style-type: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 // header start 
 header {
     .container {
         .row {
             .main {
+                border-bottom: 1px solid white;
                 padding: 20px 35px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+
+                .logo {
+                    i {
+                        color: white;
+                        font-size: 25px;
+                        cursor: pointer;
+                    }
+                }
 
                 .menu {
                     display: flex;
                     flex-wrap: wrap;
-                    justify-content: space-between;
                     align-items: center;
 
-                    .left {
-                        h2 {
-                            font-size: 25px;
-                        }
-                    }
+                    .create-eve,
+                    .event-type {
+                        padding: 0px 5px;
 
-                    .right {
-                        .btn {
-                            button {
-                                i {
-                                    padding-right: 10px;
-                                }
-
-                                border: 0px;
-                                background-color: #99d1d1;
-                                padding: 14px 20px;
-                                border-radius: 20px;
-                                font-size: 19px;
-                            }
+                        button {
+                            border: 0px;
+                            text-transform: capitalize;
+                            padding: 10px 15px;
+                            border-radius: 15px;
+                            color: orangered;
+                            font-weight: 600;
+                            cursor: pointer;
                         }
                     }
                 }
@@ -57,78 +67,53 @@ header {
 
 // header end
 
-// nav start 
-nav {
+// home-section start  
+.home-section {
     .container {
         .row {
             .main {
-                padding: 20px 35px;
-
-                .menu {
-                    ul {
-                        display: flex;
-                        flex-wrap: wrap;
-                        justify-content: space-between;
-                        align-items: center;
-
-                        li {
-                            text-transform: capitalize;
-                            font-weight: 600;
-                        }
-                    }
-                }
-            }
-        }
-    }
-}
-
-// nav end
-
-// event section start 
-.event-section {
-    
-    .container {
-        height: 100vh;
-        .row {
-            .main {
-                padding: 30px 20px;
+                min-height: 90vh;
+                padding: 20px 40px;
                 display: flex;
                 flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
 
-                .card {
-                    padding: 15px;
-                    width: 33%;
+                .title {
+                    h2 {
+                        font-size: 80px;
+                        color: white;
+                        text-decoration: underline;
+                    }
 
+                    p {
+                        text-align: center;
+                        color: white;
+                        padding-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// home-section end
+
+// event-type-section start 
+.event-type-section {
+    .container {
+        .row {
+            .main {
+                min-height: 90vh;
+                .box {
                     .content {
-                        background-color: white;
-                        border-radius: 15px;
-                        padding: 20px;
+                        .image {
 
-                        .img {
-                            display: flex;
-                            justify-content: center;
-
-                            img {
-                                width: 100%;
-                            }
                         }
+                    }
+                    .title {
+                        h3 {
 
-                        .details {
-                            padding-top: 15px;
-
-                            h3 {
-                                font-size: 20px;
-                                text-transform: capitalize;
-                            }
-
-                            h4 {
-                                font-size: 17px;
-                                padding: 8px 0px;
-                            }
-
-                            span {}
-
-                            p {}
                         }
                     }
                 }
@@ -137,4 +122,4 @@ nav {
     }
 }
 
-// event section end
+// event-type-section end
