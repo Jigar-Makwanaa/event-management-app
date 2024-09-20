@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0px auto;
+    background-color: #eee;
+}
+
+ol,
+ul {
+    list-style-type: none;
+}
+
+// header start 
+header {
+    .container {
+        .row {
+            .main {
+                padding: 20px 35px;
+
+                .menu {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .left {
+                        h2 {
+                            font-size: 25px;
+                        }
+                    }
+
+                    .right {
+                        .btn {
+                            button {
+                                i {
+                                    padding-right: 10px;
+                                }
+
+                                border: 0px;
+                                background-color: #99d1d1;
+                                padding: 14px 20px;
+                                border-radius: 20px;
+                                font-size: 19px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// header end
+
+// nav start 
+nav {
+    .container {
+        .row {
+            .main {
+                padding: 20px 35px;
+
+                .menu {
+                    ul {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-between;
+                        align-items: center;
+
+                        li {
+                            text-transform: capitalize;
+                            font-weight: 600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// nav end
+
+// event section start 
+.event-section {
+    
+    .container {
+        height: 100vh;
+        .row {
+            .main {
+                padding: 30px 20px;
+                display: flex;
+                flex-wrap: wrap;
+
+                .card {
+                    padding: 15px;
+                    width: 33%;
+
+                    .content {
+                        background-color: white;
+                        border-radius: 15px;
+                        padding: 20px;
+
+                        .img {
+                            display: flex;
+                            justify-content: center;
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+
+                        .details {
+                            padding-top: 15px;
+
+                            h3 {
+                                font-size: 20px;
+                                text-transform: capitalize;
+                            }
+
+                            h4 {
+                                font-size: 17px;
+                                padding: 8px 0px;
+                            }
+
+                            span {}
+
+                            p {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// event section end
