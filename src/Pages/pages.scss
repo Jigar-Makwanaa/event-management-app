@@ -101,19 +101,37 @@ header {
 
 // event-type-section start 
 .event-type-section {
+    
     .container {
         .row {
             .main {
                 min-height: 90vh;
+                padding: 60px 35px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                cursor: pointer;
                 .box {
+                    width: 20%;
+                    height: 170px;
+                    background-color: white;
+                    border-radius: 12px;
+                    padding: 20px;
                     .content {
-                        .image {
-
+                        .icon {
+                            display: flex;
+                            justify-content: center;
+                            img {
+                                width: 90px;
+                            }
                         }
                     }
                     .title {
                         h3 {
-
+                            text-align: center;
+                            padding-top: 15px;
+                            text-transform: capitalize;
+                            color: orangered;
                         }
                     }
                 }

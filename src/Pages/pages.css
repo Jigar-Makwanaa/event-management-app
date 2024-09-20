@@ -74,4 +74,29 @@ header .container .row .main .menu .event-type button {
 
 .event-type-section .container .row .main {
   min-height: 90vh;
+  padding: 60px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.event-type-section .container .row .main .box {
+  width: 20%;
+  height: 170px;
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+.event-type-section .container .row .main .box .content .icon {
+  display: flex;
+  justify-content: center;
+}
+.event-type-section .container .row .main .box .content .icon img {
+  width: 90px;
+}
+.event-type-section .container .row .main .box .title h3 {
+  text-align: center;
+  padding-top: 15px;
+  text-transform: capitalize;
+  color: orangered;
 }/*# sourceMappingURL=pages.css.map */
