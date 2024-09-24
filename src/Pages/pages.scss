@@ -101,7 +101,7 @@ header {
 
 // event-type-section start 
 .event-type-section {
-    
+
     .container {
         .row {
             .main {
@@ -111,21 +111,25 @@ header {
                 flex-wrap: wrap;
                 justify-content: space-between;
                 cursor: pointer;
+
                 .box {
                     width: 20%;
                     height: 170px;
                     background-color: white;
                     border-radius: 12px;
                     padding: 20px;
+
                     .content {
                         .icon {
                             display: flex;
                             justify-content: center;
+
                             img {
                                 width: 90px;
                             }
                         }
                     }
+
                     .title {
                         h3 {
                             text-align: center;
@@ -141,3 +145,119 @@ header {
 }
 
 // event-type-section end
+
+// add-event section start
+.add-event-section {
+    .container {
+        .row {
+            .main {
+                min-height: 90vh;
+                padding: 60px 35px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                cursor: pointer;
+
+                .add-event {
+                    width: 80%;
+                    margin: 0px auto;
+                    .form {
+                        form {
+                            .title {
+                                padding: 10px 0px;
+                                input {
+                                    padding: 15px ;
+                                    color: orangered;
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    outline: none;
+                                    border-radius: 12px;
+                                    border: 0;
+                                    width: 100%;
+
+                                    &::placeholder {
+                                        color: gray;
+                                    }
+                                }
+                            }
+
+                            .description {
+                                padding: 10px 0px;
+                                input {
+                                    padding: 15px ;
+                                    color: orangered;
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    outline: none;
+                                    border-radius: 12px;
+                                    border: 0;
+                                    width: 100%;
+
+                                    &::placeholder {
+                                        color: gray;
+                                    }
+                                }
+                            }
+
+                            .date {
+                                padding: 10px 0px;
+                                input {
+                                    padding: 15px ;
+                                    color: orangered;
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    outline: none;
+                                    border-radius: 12px;
+                                    border: 0;
+                                    width: 100%;
+
+                                    &::placeholder {
+                                        color: gray;
+                                    }
+                                }
+                            }
+
+                            .location {
+                                padding: 10px 0px;
+                                input {
+                                    padding: 15px ;
+                                    color: orangered;
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    outline: none;
+                                    border-radius: 12px;
+                                    border: 0;
+                                    width: 100%;
+
+                                    &::placeholder {
+                                        color: gray;
+                                    }
+                                }
+                            }
+
+                            .attendees {
+                                padding: 10px 0px;
+                                input {
+                                    padding: 15px ;
+                                    color: orangered;
+                                    font-size: 18px;
+                                    font-weight: 600;
+                                    outline: none;
+                                    border-radius: 12px;
+                                    border: 0;
+                                    width: 100%;
+
+                                    &::placeholder {
+                                        color: gray;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// add-event section end

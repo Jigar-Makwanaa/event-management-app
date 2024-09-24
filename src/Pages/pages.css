@@ -99,4 +99,112 @@ header .container .row .main .menu .event-type button {
   padding-top: 15px;
   text-transform: capitalize;
   color: orangered;
+}
+
+.add-event-section .container .row .main {
+  min-height: 90vh;
+  padding: 60px 35px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.add-event-section .container .row .main .add-event {
+  width: 80%;
+  margin: 0px auto;
+}
+.add-event-section .container .row .main .add-event .form form .title {
+  padding: 10px 0px;
+}
+.add-event-section .container .row .main .add-event .form form .title input {
+  padding: 15px;
+  color: orangered;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 12px;
+  border: 0;
+  width: 100%;
+}
+.add-event-section .container .row .main .add-event .form form .title input::-moz-placeholder {
+  color: gray;
+}
+.add-event-section .container .row .main .add-event .form form .title input::placeholder {
+  color: gray;
+}
+.add-event-section .container .row .main .add-event .form form .description {
+  padding: 10px 0px;
+}
+.add-event-section .container .row .main .add-event .form form .description input {
+  padding: 15px;
+  color: orangered;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 12px;
+  border: 0;
+  width: 100%;
+}
+.add-event-section .container .row .main .add-event .form form .description input::-moz-placeholder {
+  color: gray;
+}
+.add-event-section .container .row .main .add-event .form form .description input::placeholder {
+  color: gray;
+}
+.add-event-section .container .row .main .add-event .form form .date {
+  padding: 10px 0px;
+}
+.add-event-section .container .row .main .add-event .form form .date input {
+  padding: 15px;
+  color: orangered;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 12px;
+  border: 0;
+  width: 100%;
+}
+.add-event-section .container .row .main .add-event .form form .date input::-moz-placeholder {
+  color: gray;
+}
+.add-event-section .container .row .main .add-event .form form .date input::placeholder {
+  color: gray;
+}
+.add-event-section .container .row .main .add-event .form form .location {
+  padding: 10px 0px;
+}
+.add-event-section .container .row .main .add-event .form form .location input {
+  padding: 15px;
+  color: orangered;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 12px;
+  border: 0;
+  width: 100%;
+}
+.add-event-section .container .row .main .add-event .form form .location input::-moz-placeholder {
+  color: gray;
+}
+.add-event-section .container .row .main .add-event .form form .location input::placeholder {
+  color: gray;
+}
+.add-event-section .container .row .main .add-event .form form .attendees {
+  padding: 10px 0px;
+}
+.add-event-section .container .row .main .add-event .form form .attendees input {
+  padding: 15px;
+  color: orangered;
+  font-size: 18px;
+  font-weight: 600;
+  outline: none;
+  border-radius: 12px;
+  border: 0;
+  width: 100%;
+}
+.add-event-section .container .row .main .add-event .form form .attendees input::-moz-placeholder {
+  color: gray;
+}
+.add-event-section .container .row .main .add-event .form form .attendees input::placeholder {
+  color: gray;
 }/*# sourceMappingURL=pages.css.map */
